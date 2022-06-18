@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="form-holder">
+        <form id="registration-form" action="./app.js" target="_blank" method="post">
+            <h1>Registration Form</h1>
+
+            
+            <div class="fname-container">
+                <label for="first-name">First Name:</label>
+                <input id="fname" type="text" name="first-name">
+            </div><br>
+
+            <div class="lname-container">
+                <label for="last-name">Last Name:</label>
+                <input id="lname" type="text" name="last-name">
+            </div><br>
+
+            <div class="uname-container">
+                <label for="username">Username:</label>
+                <input id="uname"type="text" name="username">    
+            </div><br>
+
+            <div class="pword-container">
+                <label for="password">Password:</label>
+                <input id="pword" type="password" name="pword" required>    
+            </div><br>
+
+            <div class="e-mail-container">
+                <label for="email">Email:</label>
+                <input id="e-mail" type="email" name="email" required>    
+            </div><br>
+
+            <div class="phone-container">
+                <label for="number">Mobile No.:</label>
+                <input id="number"type="tel" name="number">
+            </div><br>
+
+            <div class="cities-container">
+                <label for="city">City</label>
+                <select id="cities" name="city">
+                    <option value="memphis">Memphis</option>
+                    <option value="nashville">Nashville</option>
+                    <option value="knoxville">Knoxville</option>
+                </select>    
+            </div><br>
+
+            <div class="register-container">
+                <input id="register-button" type="submit" value="Register">
+            </div>
+        </form>
+
+        <div id="print-response-here"></div>
+
+        <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    background-color: lightgray;
+}
+
+form{
+    border-style: double;
+    border-width: 2px;
+    padding-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+[class*="container"]{
+    text-align: center;
+}
+
+.e-mail-container{
+    margin-left: 33px;
+}
+
+.uname-container{
+    margin-left: 5px;
+}
+
+.pword-container{
+    margin-left: 9px;
+}
+
+#register-button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+}
+
+#register-button:hover{
+    background-color: greenyellow;
+    color: grey;
+}
